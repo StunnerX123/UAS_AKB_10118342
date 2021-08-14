@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1027085595848",
+    "project_id": "dbuas-akb",
+    "storage_bucket": "dbuas-akb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027085595848:android:dcee2c59643f0d55a421fd",
+        "android_client_info": {
+          "package_name": "com.example.tugasbesaruas_akb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027085595848-8fvti49skhsnu3pronbs438it4o3q5vs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tugasbesaruas_akb",
+            "certificate_hash": "f77a79088918a3f7469e28f02b2c11d892871ed3"
+          }
+        },
+        {
+          "client_id": "1027085595848-kl9115bags17q071r4ji760ilis01idg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKHr-DHcu1qYX8uREG9iFFt266BpQhhXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027085595848-kl9115bags17q071r4ji760ilis01idg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

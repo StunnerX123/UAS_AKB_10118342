@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    tools:context=".WisataActivity">
+
+    <ImageView
+        android:id="@+id/lg_ktbndg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/lg_kotabandung"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/lg_ktbndg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_btn"
+        android:text="Kota Bandung"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:id="@+id/btn_ktbndg"/>
+
+    <ImageView
+        android:id="@+id/lg_kabbndg"
+        android:layout_below="@id/btn_ktbndg"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/lg_kabbandung"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/lg_kabbndg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_btn"
+        android:text="Kabupaten Bandung"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:id="@+id/btn_kabbndg"/>
+
+    <ImageView
+        android:id="@+id/lg_kabbndgbrt"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_kabbndg"
+        android:src="@drawable/lg_kabbndgbarat"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/lg_kabbndgbrt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_btn"
+        android:text="Kabupaten Bandung Barat"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:id="@+id/btn_kabbndgbarat"/>
+
+    <ImageView
+        android:id="@+id/lg_kotacimahi"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/btn_kabbndgbarat"
+        android:src="@drawable/lg_kotacimahi"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_below="@id/lg_kotacimahi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_btn"
+        android:text="Kota Cimahi"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:id="@+id/btn_kotacimahi"/>
+
+</RelativeLayout>
